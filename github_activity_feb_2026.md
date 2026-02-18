@@ -8,7 +8,8 @@
 **Limitations:**
 - GitHub REST Search API endpoints returned **404** in this environment, so comment/reaction-level activity from Search could not be enumerated.
 - GitHub REST `/user/events` endpoint also returned **404**, so event-level activity feed could not be retrieved.
-- This report therefore lists all **PRs, issues, review activity (none reported), and commit contribution summaries** available from GraphQL contributions for the month.
+- Comment activity below is sourced from the **User.issueComments** GraphQL connection (does not include review comments).
+- PR review activity could not be enumerated via GraphQL user connections in this environment.
 
 ---
 
@@ -83,6 +84,39 @@ No PR review contributions were reported by GitHub GraphQL for this period.
 | pydantic/pydantic-ai | 2 | 5 |
 
 ---
+
+## Issue/PR Comments (28)
+
+| Date (UTC) | Repo | Thread Title | Thread URL | Comment URL |
+|---|---|---|---|---|
+| 2026-02-10 | Significant-Gravitas/AutoGPT | fix(blocks): allow falsy entries in AddToListBlock | https://github.com/Significant-Gravitas/AutoGPT/pull/12028 | https://github.com/Significant-Gravitas/AutoGPT/pull/12028#issuecomment-3875389138 |
+| 2026-02-10 | Significant-Gravitas/AutoGPT | Handle errors in Jina ExtractWebsiteContentBlock | https://github.com/Significant-Gravitas/AutoGPT/pull/12048 | https://github.com/Significant-Gravitas/AutoGPT/pull/12048#issuecomment-3875521463 |
+| 2026-02-10 | Significant-Gravitas/AutoGPT | ci: target pyright at Python 3.13 | https://github.com/Significant-Gravitas/AutoGPT/pull/12027 | https://github.com/Significant-Gravitas/AutoGPT/pull/12027#issuecomment-3875521499 |
+| 2026-02-10 | googleapis/mcp-toolbox-sdk-java | feat: parity with other SDKs and LangChain4j integration | https://github.com/googleapis/mcp-toolbox-sdk-java/pull/10 | https://github.com/googleapis/mcp-toolbox-sdk-java/pull/10#issuecomment-3876750210 |
+| 2026-02-10 | googleapis/mcp-toolbox-sdk-python | fix(core): parse parameter default value from tool schema | https://github.com/googleapis/mcp-toolbox-sdk-python/pull/538 | https://github.com/googleapis/mcp-toolbox-sdk-python/pull/538#issuecomment-3877019289 |
+| 2026-02-10 | googleapis/mcp-toolbox-sdk-python | fix(core): parse parameter default value from tool schema | https://github.com/googleapis/mcp-toolbox-sdk-python/pull/538 | https://github.com/googleapis/mcp-toolbox-sdk-python/pull/538#issuecomment-3878457978 |
+| 2026-02-11 | pydantic/pydantic-ai | fix: use client property across all model classes to avoid stale references | https://github.com/pydantic/pydantic-ai/pull/4276 | https://github.com/pydantic/pydantic-ai/pull/4276#issuecomment-3881998565 |
+| 2026-02-11 | langchain-ai/langchain | fix: handle self kwarg in StructuredTool inputs | https://github.com/langchain-ai/langchain/pull/35115 | https://github.com/langchain-ai/langchain/pull/35115#issuecomment-3882048301 |
+| 2026-02-11 | googleapis/mcp-toolbox-sdk-python | fix(core): parse parameter default value from tool schema | https://github.com/googleapis/mcp-toolbox-sdk-python/pull/538 | https://github.com/googleapis/mcp-toolbox-sdk-python/pull/538#issuecomment-3882713615 |
+| 2026-02-11 | googleapis/mcp-toolbox-sdk-python | Connection to Oracle using proxy user | https://github.com/googleapis/mcp-toolbox-sdk-python/issues/532 | https://github.com/googleapis/mcp-toolbox-sdk-python/issues/532#issuecomment-3882901327 |
+| 2026-02-11 | googleapis/mcp-toolbox-sdk-python | Connection to Oracle using proxy user | https://github.com/googleapis/mcp-toolbox-sdk-python/issues/532 | https://github.com/googleapis/mcp-toolbox-sdk-python/issues/532#issuecomment-3882914191 |
+| 2026-02-12 | Significant-Gravitas/AutoGPT | fix(chat): gracefully degrade search when pgvector type is unavailable | https://github.com/Significant-Gravitas/AutoGPT/pull/12089 | https://github.com/Significant-Gravitas/AutoGPT/pull/12089#issuecomment-3890520350 |
+| 2026-02-12 | Significant-Gravitas/AutoGPT | fix(chat): gracefully degrade search when pgvector type is unavailable | https://github.com/Significant-Gravitas/AutoGPT/pull/12089 | https://github.com/Significant-Gravitas/AutoGPT/pull/12089#issuecomment-3890521331 |
+| 2026-02-12 | googleapis/mcp-toolbox-sdk-python | fix(core): parse parameter default value from tool schema | https://github.com/googleapis/mcp-toolbox-sdk-python/pull/538 | https://github.com/googleapis/mcp-toolbox-sdk-python/pull/538#issuecomment-3892034753 |
+| 2026-02-12 | googleapis/genai-toolbox | Oracle proxy username with brackets rejected in connection URL | https://github.com/googleapis/genai-toolbox/issues/2454 | https://github.com/googleapis/genai-toolbox/issues/2454#issuecomment-3892057852 |
+| 2026-02-13 | googleapis/mcp-toolbox-sdk-python | fix(core): parse parameter default value from tool schema | https://github.com/googleapis/mcp-toolbox-sdk-python/pull/538 | https://github.com/googleapis/mcp-toolbox-sdk-python/pull/538#issuecomment-3897947083 |
+| 2026-02-14 | googleapis/google-api-nodejs-client | fix: fall back to HTTP/1.1 when global http2 option is enabled | https://github.com/googleapis/google-api-nodejs-client/pull/3894 | https://github.com/googleapis/google-api-nodejs-client/pull/3894#issuecomment-3901096907 |
+| 2026-02-16 | Significant-Gravitas/AutoGPT | [Bug] CoPilot stop button doesn't abort backend processing | https://github.com/Significant-Gravitas/AutoGPT/issues/12111 | https://github.com/Significant-Gravitas/AutoGPT/issues/12111#issuecomment-3907097374 |
+| 2026-02-16 | Significant-Gravitas/AutoGPT | Fix CoPilot stop button by cancelling backend chat stream | https://github.com/Significant-Gravitas/AutoGPT/pull/12116 | https://github.com/Significant-Gravitas/AutoGPT/pull/12116#issuecomment-3907207395 |
+| 2026-02-16 | Significant-Gravitas/AutoGPT | Fix CoPilot stop button by cancelling backend chat stream | https://github.com/Significant-Gravitas/AutoGPT/pull/12116 | https://github.com/Significant-Gravitas/AutoGPT/pull/12116#issuecomment-3907241629 |
+| 2026-02-16 | Significant-Gravitas/AutoGPT | Fix CoPilot stop button by cancelling backend chat stream | https://github.com/Significant-Gravitas/AutoGPT/pull/12116 | https://github.com/Significant-Gravitas/AutoGPT/pull/12116#issuecomment-3907277724 |
+| 2026-02-16 | langchain-ai/langchain-google | ChatAnthropicVertex hardcodes max_output_tokens=1024, should use model-aware defaults like ChatAnthropic | https://github.com/langchain-ai/langchain-google/issues/1584 | https://github.com/langchain-ai/langchain-google/issues/1584#issuecomment-3908574718 |
+| 2026-02-17 | pydantic/pydantic-ai | fix: use client property across all model classes to avoid stale references | https://github.com/pydantic/pydantic-ai/pull/4276 | https://github.com/pydantic/pydantic-ai/pull/4276#issuecomment-3912499397 |
+| 2026-02-17 | pydantic/pydantic-ai | fix: use client property across all model classes to avoid stale references | https://github.com/pydantic/pydantic-ai/pull/4276 | https://github.com/pydantic/pydantic-ai/pull/4276#issuecomment-3913234705 |
+| 2026-02-17 | googleapis/genai-toolbox | Oracle proxy username with brackets rejected in connection URL | https://github.com/googleapis/genai-toolbox/issues/2454 | https://github.com/googleapis/genai-toolbox/issues/2454#issuecomment-3914489740 |
+| 2026-02-17 | googleapis/mcp-toolbox-sdk-js | fix(core): preserve default values for tool parameters | https://github.com/googleapis/mcp-toolbox-sdk-js/pull/268 | https://github.com/googleapis/mcp-toolbox-sdk-js/pull/268#issuecomment-3915716320 |
+| 2026-02-17 | googleapis/mcp-toolbox-sdk-java | feat: parity with other SDKs and LangChain4j integration | https://github.com/googleapis/mcp-toolbox-sdk-java/pull/10 | https://github.com/googleapis/mcp-toolbox-sdk-java/pull/10#issuecomment-3915775966 |
+| 2026-02-17 | googleapis/genai-toolbox | Oracle proxy username with brackets rejected in connection URL | https://github.com/googleapis/genai-toolbox/issues/2454 | https://github.com/googleapis/genai-toolbox/issues/2454#issuecomment-3915799599 |
 
 ## Raw Data Files (for audit)
 
